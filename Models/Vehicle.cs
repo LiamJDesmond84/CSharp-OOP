@@ -11,6 +11,8 @@ public class Vehicle {
     //* a return type or the static keyword
     public Vehicle(int val) {
         NumPassengers = val;
+
+        // NumPassengers = 5;
     }
 }
 
