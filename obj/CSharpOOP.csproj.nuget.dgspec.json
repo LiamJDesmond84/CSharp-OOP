@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\liamj\\Documents\\GitRepos\\CSharpOOP\\CSharpOOP.csproj": {}
+    "C:\\Users\\liamj\\Documents\\GitRepos\\CSharp-OOP\\CSharpOOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\liamj\\Documents\\GitRepos\\CSharpOOP\\CSharpOOP.csproj": {
+    "C:\\Users\\liamj\\Documents\\GitRepos\\CSharp-OOP\\CSharpOOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\liamj\\Documents\\GitRepos\\CSharpOOP\\CSharpOOP.csproj",
+        "projectUniqueName": "C:\\Users\\liamj\\Documents\\GitRepos\\CSharp-OOP\\CSharpOOP.csproj",
         "projectName": "CSharpOOP",
-        "projectPath": "C:\\Users\\liamj\\Documents\\GitRepos\\CSharpOOP\\CSharpOOP.csproj",
+        "projectPath": "C:\\Users\\liamj\\Documents\\GitRepos\\CSharp-OOP\\CSharpOOP.csproj",
         "packagesPath": "C:\\Users\\liamj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\liamj\\Documents\\GitRepos\\CSharpOOP\\obj\\",
+        "outputPath": "C:\\Users\\liamj\\Documents\\GitRepos\\CSharp-OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\liamj\\AppData\\Roaming\\NuGet\\NuGet.Config"
