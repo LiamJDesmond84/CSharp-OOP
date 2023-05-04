@@ -42,6 +42,7 @@ public class Vehicle {
 
     //# Properties(Getters & Setters)
 
+    //todo - sets "Color" field
     public string ColorProp
     {
         get
@@ -62,5 +63,9 @@ public class Vehicle {
             Color = value;
         }
     }
+
+    //# Auto-Implemented Properties
+
+    public string Name {get;set;}
 }
 
