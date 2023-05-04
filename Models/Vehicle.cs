@@ -13,6 +13,10 @@ public class Vehicle {
         NumPassengers = val;
 
         // NumPassengers = 5;
+
+         public int MaxNumPassengers;
+        public string Color;
+        public double MaxSpeed;
     }
 }
 
