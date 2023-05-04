@@ -16,6 +16,15 @@ namespace CSharpOOP {
         Vehicle myVehicle = new Vehicle(7);
         Console.WriteLine($"My vehicle is holding {myVehicle.NumPassengers} people");
 
+        myVehicle.ColorProp = "Green";
+        string colorResult = myVehicle.ColorProp;
+        Console.WriteLine(colorResult);
+
+
+
+
+
+
 
             CreateHostBuilder(args).Build().Run();
         }
