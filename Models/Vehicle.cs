@@ -3,7 +3,7 @@ using System;
 //* Make sure to include the Vehicle class separate from the Program class
 public class Vehicle {
 
-
+    //# Fields
     public int MaxNumPassengers;
     public string Color;
     public double MaxSpeed;
@@ -16,6 +16,8 @@ public class Vehicle {
     //* this unassigned integer will default to 0
     public int NumPassengers;
 
+    //# Constructors
+
     //* Notice the Constructor function doesn't need
     //* a return type or the static keyword
     public Vehicle(int val) {
@@ -24,37 +26,39 @@ public class Vehicle {
         // NumPassengers = 5;
     }
 
-        //* vehicleObject.MakeNoise("HOOONK!") will invoke this one
-        public void MakeNoise(string noise)
-        {
-            Console.WriteLine(noise);
-        }
-        
-        //* vehicleObject.MakeNoise() will invoke this one
-        public void MakeNoise()
-        {
-            Console.WriteLine("BEEP!");
-        }
+    //# Methods
 
+    //* vehicleObject.MakeNoise("HOOONK!") will invoke this one
+    public void MakeNoise(string noise)
+    {
+        Console.WriteLine(noise);
+    }
+    
+    //* vehicleObject.MakeNoise() will invoke this one
+    public void MakeNoise()
+    {
+        Console.WriteLine("BEEP!");
+    }
 
+    //# Properties(Getters & Setters)
 
-        public string ColorProp
+    public string ColorProp
     {
         get
         {
-    	    //* Simply referencing the property will invoke the "getter", such as:
-    	    //* Console.WriteLine(vehicleObject.ColorProp);
-    	    //* and will return the following:
-    
+            //* Simply referencing the property will invoke the "getter", such as:
+            //* Console.WriteLine(vehicleObject.ColorProp);
+            //* and will return the following:
+
             return $"This thing is {Color}";
         }
         set
         {
-    	    //* Assigning a value to a property, such as:
-    	    //* vehicleObject.ColorProp = "Blue";
-    	    //* will invoke the "setter", and the "value" keyword will become the assigned value
-    	    //* ("Blue" in this example)
-    
+            //* Assigning a value to a property, such as:
+            //* vehicleObject.ColorProp = "Blue";
+            //* will invoke the "setter", and the "value" keyword will become the assigned value
+            //* ("Blue" in this example)
+
             Color = value;
         }
     }
