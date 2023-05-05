@@ -6,7 +6,11 @@ public class Vehicle {
     //# Fields
     public int MaxNumPassengers;
     public string Color;
-    public double MaxSpeed;
+    public Vehicle(int maxPass, string color)
+    {
+        MaxNumPassengers = maxPass;
+        Color = color;
+    }
 
 
     //* Accessibility of class members is defaulted to private
