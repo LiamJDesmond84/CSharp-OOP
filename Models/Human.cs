@@ -1,3 +1,4 @@
+using System;
 class Human
 {
     // Properties for Human
@@ -32,7 +33,8 @@ class Human
     public int Attack(Human target)
     {
         int dmg = Strength * 5;
-        return Health - dmg;
+        Console.WriteLine($"{target}'s Health is now:");
+        return  Health - dmg;
     }
 }
 
