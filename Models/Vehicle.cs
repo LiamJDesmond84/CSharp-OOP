@@ -4,9 +4,9 @@ using System;
 public class Vehicle {
 
     //# Fields
-    public int MaxNumPassengers;
-    public string Color;
-    public Vehicle(int maxPass, string color)
+    private int MaxNumPassengers;
+    private string Color;
+    private Vehicle(int maxPass, string color)
     {
         MaxNumPassengers = maxPass;
         Color = color;
