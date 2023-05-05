@@ -18,7 +18,7 @@ namespace CSharpOOP {
 
         //# Auto-Implemented
         // myVehicle.ColorProp = "Green";
-        // string colorResult = myVehicle.ColorProp;
+        string colorResult = myVehicle.ColorProp;
         // Console.WriteLine(colorResult);
 
 

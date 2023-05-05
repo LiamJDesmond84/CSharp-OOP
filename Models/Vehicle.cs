@@ -4,13 +4,49 @@ using System;
 public class Vehicle {
 
     //# Fields
-    public int MaxNumPassengers;
-    public string Color;
-    public Vehicle(int maxPass, string color)
+    private int maxNumPassengers;
+    private string color;
+
+        public Vehicle(int maxPass, string col)
     {
-        MaxNumPassengers = maxPass;
-        Color = color;
+        maxNumPassengers = maxPass;
+        color = col;
     }
+    public int MaxNumPassengers
+    {
+        get { return maxNumPassengers; }
+    }
+    public string Color
+    {
+        get { return color; }
+        set { Color = value;}
+    }
+
+    //# Properties(Getters & Setters)
+
+    //todo - sets "Color" field
+    public string ColorProp
+    {
+        get
+        {
+            //* Simply referencing the property will invoke the "getter", such as:
+            //* Console.WriteLine(vehicleObject.ColorProp);
+            //* and will return the following:
+
+            return $"This thing is {Color}";
+        }
+        set
+        {
+            //* Assigning a value to a property, such as:
+            //* vehicleObject.ColorProp = "Blue";
+            //* will invoke the "setter", and the "value" keyword will become the assigned value
+            //* ("Blue" in this example)
+
+            Color = value;
+        }
+    }
+
+
 
 
     //* Accessibility of class members is defaulted to private
@@ -44,29 +80,7 @@ public class Vehicle {
         Console.WriteLine("BEEP!");
     }
 
-    //# Properties(Getters & Setters)
-
-    //todo - sets "Color" field
-    public string ColorProp
-    {
-        get
-        {
-            //* Simply referencing the property will invoke the "getter", such as:
-            //* Console.WriteLine(vehicleObject.ColorProp);
-            //* and will return the following:
-
-            return $"This thing is {Color}";
-        }
-        set
-        {
-            //* Assigning a value to a property, such as:
-            //* vehicleObject.ColorProp = "Blue";
-            //* will invoke the "setter", and the "value" keyword will become the assigned value
-            //* ("Blue" in this example)
-
-            Color = value;
-        }
-    }
+    
 
     //# Auto-Implemented Properties
 
