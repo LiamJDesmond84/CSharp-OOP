@@ -15,15 +15,24 @@ class Human
         Intelligence = 88;
         Dexterity = 45;
         Health = 100;
-
-        
     }
      
     // Add a constructor to assign custom values to all fields
+
+    public Human (string name, int str, int intel, int dex, int health){
+
+        Name = name;
+        Strength = str;
+        Intelligence = intel;
+        Dexterity = dex;
+        Health = health;
+    }
      
     // Build Attack method
     public int Attack(Human target)
     {
+        int dmg = Strength * 5;
+        return Health - dmg;
     }
 }
 
