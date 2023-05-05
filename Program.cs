@@ -13,14 +13,17 @@ namespace CSharpOOP {
 
         //* Notice the type for the new object reference
         //* is the same as the class name
-        Vehicle myVehicle = new Vehicle(7);
+        Vehicle myVehicle = new Vehicle(69, "Green");
         Console.WriteLine($"My vehicle is holding {myVehicle.NumPassengers} people");
 
-        myVehicle.ColorProp = "Green";
-        string colorResult = myVehicle.ColorProp;
-        Console.WriteLine(colorResult);
+        //# Auto-Implemented
+        // myVehicle.ColorProp = "Green";
+        // string colorResult = myVehicle.ColorProp;
+        // Console.WriteLine(colorResult);
 
 
+        Console.WriteLine(myVehicle.Color);
+        Console.WriteLine(myVehicle.MaxNumPassengers);
 
 
 
