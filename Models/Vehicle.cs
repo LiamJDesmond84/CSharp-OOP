@@ -22,7 +22,7 @@ public class Vehicle {
         color = col;
     }
 
-
+    //# Properties(Getters & Setters)
 
     public int MaxNumPassengers
     {
@@ -34,7 +34,11 @@ public class Vehicle {
         set { Color = value;}
     }
 
-    //# Properties(Getters & Setters)
+    
+    //# Auto-Implemented Properties
+    public string Name {get;set;}
+
+
 
     //todo - sets "Color" field
     public string ColorProp
@@ -58,11 +62,6 @@ public class Vehicle {
         }
     }
 
-
-
-
-
-
     //# Methods
 
     //* vehicleObject.MakeNoise("HOOONK!") will invoke this one
@@ -77,10 +76,6 @@ public class Vehicle {
         Console.WriteLine("BEEP!");
     }
 
-    
 
-    //# Auto-Implemented Properties
-
-    public string Name {get;set;}
 }
 
