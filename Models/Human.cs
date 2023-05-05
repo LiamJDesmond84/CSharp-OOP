@@ -33,7 +33,7 @@ class Human
     public int Attack(Human target)
     {
         int dmg = Strength * 5;
-        Console.WriteLine($"{target}'s Health is now:");
+        Console.WriteLine($"{target.Name}'s Health is now:");
         return  Health - dmg;
     }
 }

@@ -22,11 +22,16 @@ namespace CSharpOOP {
         // Console.WriteLine(colorResult);
 
 
-        Console.WriteLine(myVehicle.Color);
-        Console.WriteLine(myVehicle.MaxNumPassengers);
+        // Console.WriteLine(myVehicle.Color);
+        // Console.WriteLine(myVehicle.MaxNumPassengers);
 
 
+        Human me = new Human("Liam");
+        Human you = new Human("Bob");
 
+        int result = me.Attack(you);
+
+        Console.Write(result);
 
 
             CreateHostBuilder(args).Build().Run();
