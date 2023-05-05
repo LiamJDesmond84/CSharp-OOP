@@ -7,11 +7,23 @@ public class Vehicle {
     private int maxNumPassengers;
     private string color;
 
+    
+    //# Constructors
+
+    //* Accessibility of class members is defaulted to private
+    //* so we must add the public keyword to anything we
+    //* want to allow outside access to.
         public Vehicle(int maxPass, string col)
     {
+        //* Notice the Constructor function doesn't need
+        //* a return type or the static keyword
+
         maxNumPassengers = maxPass;
         color = col;
     }
+
+
+
     public int MaxNumPassengers
     {
         get { return maxNumPassengers; }
@@ -49,22 +61,7 @@ public class Vehicle {
 
 
 
-    //* Accessibility of class members is defaulted to private
-    //* so we must add the public keyword to anything we
-    //* want to allow outside access to.
 
-    //* this unassigned integer will default to 0
-    public int NumPassengers;
-
-    //# Constructors
-
-    //* Notice the Constructor function doesn't need
-    //* a return type or the static keyword
-    public Vehicle(int val) {
-        NumPassengers = val;
-
-        // NumPassengers = 5;
-    }
 
     //# Methods
 

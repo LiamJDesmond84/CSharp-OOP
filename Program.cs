@@ -14,7 +14,7 @@ namespace CSharpOOP {
         //* Notice the type for the new object reference
         //* is the same as the class name
         Vehicle myVehicle = new Vehicle(69, "Green");
-        Console.WriteLine($"My vehicle is holding {myVehicle.NumPassengers} people");
+        // Console.WriteLine($"My vehicle is holding {myVehicle.NumPassengers} people"); // No longer a field
 
         //# Auto-Implemented
         // myVehicle.ColorProp = "Green";
