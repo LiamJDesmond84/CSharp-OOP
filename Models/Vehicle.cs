@@ -13,7 +13,7 @@ public class Vehicle {
     //* Accessibility of class members is defaulted to private
     //* so we must add the public keyword to anything we
     //* want to allow outside access to.
-        public Vehicle(int maxPass, string col)
+    public Vehicle(int maxPass, string col)
     {
         //* Notice the Constructor function doesn't need
         //* a return type or the static keyword
@@ -40,7 +40,7 @@ public class Vehicle {
 
 
 
-    //todo - sets "Color" field
+    //todo - Different name, but can still get & set "Color" field
     public string ColorProp
     {
         get
